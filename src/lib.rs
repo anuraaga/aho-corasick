@@ -213,6 +213,7 @@ mod prefilter;
 mod state_id;
 #[cfg(test)]
 mod tests;
+mod exports;
 
 /// A representation of a match reported by an Aho-Corasick automaton.
 ///

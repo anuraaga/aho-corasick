@@ -19,6 +19,7 @@ edition = "2018"
 members = ["aho-corasick-debug", "bench"]
 
 [lib]
+crate-type = ["staticlib"]
 name = "aho_corasick"
 
 [features]
